@@ -163,6 +163,12 @@ td {
   font-size: 18px;
   color: rgb(12, 131, 31) !important;
 }
+i.fa-brands.fa-apple {
+  padding: 4px;
+}
+i.fa-solid.fa-play {
+padding: 4px;
+}
 #footer-row-2 {
   margin-top: 40px;
   display: flex;
@@ -336,3 +342,4 @@ height:180px;
   }
   }
 
+ 
