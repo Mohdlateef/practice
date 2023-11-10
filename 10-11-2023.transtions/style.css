@@ -1,0 +1,48 @@
+.transtions {
+  background-color: aqua;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  margin-top: 230px;
+  transition: height 1s linear 3s, width 1s ease, background-color 1s ease;
+}
+.transtions:hover {
+  background-color: rgb(41, 18, 215);
+  width: 600px;
+  height: 150px;
+}
+.box {
+  width: 100px;
+  height: 70px;
+  background-color: blue;
+  margin: auto;
+  transition: all 2s ease;
+}
+.box:hover{
+   transform: scale(2,4);
+}
+.box2{
+    width: 100px;
+    height: 70px;
+    background-color: blue;
+    margin: auto;
+    transition: all 2s ease;
+  }
+  .box2:hover{
+    transform: rotateZ(120deg)
+ }
+ .box3{
+    width: 100px;
+    height: 70px;
+    background-color: blue;
+    margin: auto;
+    transition: all 3s linear;
+  }
+  .box3:hover{
+    transform: rotateZ(369deg);
+    transform-origin: left;
+ }
+ .boxes{
+    display: flex;
+    column-gap: 30px;
+ }
